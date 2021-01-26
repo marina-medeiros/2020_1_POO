@@ -6,6 +6,6 @@ class MainClass {
     double sfixo = double.Parse(Console.ReadLine());
     double comissao = double.Parse(Console.ReadLine());
     double salario = sfixo + (comissao * 0.15);
-    Console.WriteLine ($"TOTAL = R${salario:0.00}");
+    Console.WriteLine ($"TOTAL = R$ {salario:0.00}");
   }
 }
